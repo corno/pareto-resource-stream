@@ -1,0 +1,39 @@
+{
+  "name": "pareto-resource-stream",
+  "version": "0.1.0",
+  "author": "Corno",
+  "license": "Apache-2.0",
+  "description": "a library that implements the stream-api and thus provides stream functionality for pareto packages",
+  "keywords": [],
+  "homepage": "https://github.com/corno/pareto-resource-stream#readme",
+  "bugs": {
+    "url": "https://github.com/corno/pareto-resource-stream/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corno/pareto-resource-stream.git"
+  },
+  "type": "module",
+  "exports": {
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "documentation"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "pareto-core": "^0.1.0",
+    "pareto-stream-api": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0"
+  }
+}

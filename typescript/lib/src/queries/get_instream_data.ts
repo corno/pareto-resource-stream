@@ -2,9 +2,9 @@
 import * as p_ from 'pareto-core/implementation/resource'
 
 //interface
-import * as resources from "pareto-stream-api/interface/queries"
+import * as interface_ from "pareto-stream-api/interface/query_actions"
 
-export const $$: resources.queries.get_instream_data = p_.query(($p, on_value) => {
+export const $$: interface_.get_instream_data = p_.query(($p, on_value) => {
 
     const stdin = process.stdin;
     let data = '';

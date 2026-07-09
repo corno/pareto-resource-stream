@@ -2,7 +2,7 @@ import * as p_ from 'pareto-core/implementation/resource'
 import p_text_from_list from 'pareto-core/implementation/transformer/specials/text_from_list'
 
 //interface
-import * as interface_ from "pareto-stream-api/interface/command_actions"
+import * as interface_ from "pareto-stream-api/interface/commands"
 
 //dependencies
 import * as t_fp_to_list_of_characters from "pareto-fountain-pen/implementation/manual/transformers/prose/list_of_characters"

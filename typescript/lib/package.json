@@ -1,6 +1,6 @@
 {
   "name": "pareto-resource-stream",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Corno",
   "license": "Apache-2.0",
   "description": "a library that implements the stream-api and thus provides stream functionality for pareto packages",

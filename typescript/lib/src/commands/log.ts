@@ -5,7 +5,7 @@ import p_text_from_list from 'pareto-core/implementation/transformer/specials/te
 import * as interface_ from "pareto-stream-api/interface/commands"
 
 //dependencies
-import * as t_fp_to_list_of_characters from "pareto-fountain-pen/implementation/transformers/prose/list_of_characters"
+import * as t_fp_to_list_of_characters from "pareto-core/temp/fountain_pen/serializers/prose"
 
 export const $$: interface_.log = p_.command(($p, on_success) => {
     process.stdout.write(

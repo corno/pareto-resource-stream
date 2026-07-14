@@ -7,11 +7,12 @@ import * as interface_ from "pareto-stream-api/interface/commands"
 //dependencies
 import * as t_fp_to_list_of_characters from "pareto-core/temp/fountain_pen/serializers/prose"
 
-export const $$: interface_.log_error = p_.command(($p, on_success) => {
+export const $$: interface_.log_errors = p_.command(($p, on_success) => {
+    
     process.stderr.write(
         p_text_from_list(
-            t_fp_to_list_of_characters.Phrase(
-                $p.message,
+            t_fp_to_list_of_characters.Paragraph(
+                $p.messages,
                 {
                     'indentation': '    ',
                     'newline': '\n',

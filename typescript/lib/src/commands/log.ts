@@ -11,7 +11,7 @@ export const $$: interface_.log = p_.command(($p, on_success) => {
     process.stdout.write(
         p_text_from_list( //this might be a bit inefficient, but it is the simplest way to do it
             t_fp_to_list_of_characters.Paragraph(
-                $p.message,
+                $p.data,
                 {
                     'indentation': '    ',
                     'newline': '\n',

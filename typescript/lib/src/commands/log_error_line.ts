@@ -7,7 +7,7 @@ import * as interface_ from "pareto-stream-api/interface/commands"
 
 export const $$: interface_.log_error_line = p_.command(($p, on_success) => {
     console.error(
-        $p.message
+        $p.line
     )
     on_success()
 })

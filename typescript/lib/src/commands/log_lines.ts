@@ -5,8 +5,8 @@ import * as interface_ from "pareto-stream-api/interface/commands"
 
 export const $$: interface_.log_lines = p_.command(($p, on_success) => {
     
-    $p.messages.__get_raw().forEach(($) => {
-        process.stdout.write(
+    $p.lines.__get_raw().forEach(($) => {
+        console.log(
             $
         )
     })

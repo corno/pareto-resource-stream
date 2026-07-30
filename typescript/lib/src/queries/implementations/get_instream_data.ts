@@ -2,7 +2,7 @@
 import * as p_ from 'pareto-core/implementation/resource'
 
 //interface
-import * as interface_ from "pareto-stream-api/interface/queries"
+import * as interface_ from "pareto-stream-api/queries/interfaces"
 
 export const $$: interface_.get_instream_data = p_.query(($p, on_value) => {
 

@@ -1,5 +1,5 @@
 
-import * as p_ from 'pareto-core/implementation/resource'
+import * as p_ from 'pareto-core/resource'
 
 //interface
 import * as interface_ from "pareto-stream-api/queries/interfaces"

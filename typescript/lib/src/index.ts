@@ -1,8 +1,8 @@
 import * as p_ from 'pareto-core/interface/resource'
 
 import { $$ as c_stream_log_error_line } from "./commands/implementations/log_error_line.js"
-import { $$ as c_stream_log_error_lines } from "./commands/implementations/log_error_lines.js"
-import { $$ as c_stream_log_lines } from "./commands/implementations/log_lines.js"
+import { $$ as c_stream_log_error_paragraph } from "./commands/implementations/log_error_paragraph.js"
+import { $$ as c_stream_log_paragraph } from "./commands/implementations/log_paragraph.js"
 import { $$ as c_stream_write_to_stderr } from "./commands/implementations/write_to_stderr.js"
 import { $$ as c_stream_write_to_stdout } from "./commands/implementations/write_to_stdout.js"
 
@@ -11,8 +11,8 @@ import { $$ as q_stream_get_instream_data } from "./queries/implementations/get_
 export const $ = {
     'commands': {
         'log error line': c_stream_log_error_line,
-        'log error lines': c_stream_log_error_lines,
-        'log lines': c_stream_log_lines,
+        'log error paragraph': c_stream_log_error_paragraph,
+        'log paragraph': c_stream_log_paragraph,
         'write to stderr': c_stream_write_to_stderr,
         'write to stdout': c_stream_write_to_stdout,
 

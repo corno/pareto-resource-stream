@@ -1,6 +1,6 @@
 {
   "name": "pareto-resource-stream",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "author": "Corno",
   "license": "Apache-2.0",
   "description": "a library that implements the stream-api and thus provides stream functionality for pareto packages",
@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "pareto-core": "^0.1.0",
-    "pareto-stream-api": "^0.1.0"
+    "pareto-stream-api": "^0.1.0",
+    "pareto-fountain-pen": "^0.4.0"
   },
   "devDependencies": {
     "@types/node": "^26.1.0"
